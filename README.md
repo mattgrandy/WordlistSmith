@@ -27,3 +27,6 @@ I decided to have the verbose option enabled by default due to the good amount o
 
 - Quick run (may have issues if site is slow) <br>
 `WordlistSmith.exe -u https://www.example.com --max-pages 1000 --threads 20 --delay 0 -o outputWordlist.txt`
+
+## Props
+Thanks to Robin ([@digininja](https://twitter.com/digininja)) for the great work and inspiration on CeWL.
