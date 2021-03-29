@@ -1,12 +1,12 @@
 ﻿
 namespace WordlistSmith
 {
-    public class Smither
+    public class Smithy
     {
         public string Url, Output, Agent, User, Pass;
         public int Min, Max, Depth, Delay, Threads, MaxPages, Timeout;
 
-        public Smither()
+        public Smithy()
         {
             this.Url = Program.Options.Instance.Url;
             this.Min = Program.Options.Instance.Minimum;
